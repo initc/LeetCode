@@ -13,9 +13,9 @@ public class ClimbingStair {
 	 * Each time you can either climb 1 or 2 steps. In how many distinct ways
 	 * can you climb to the top?
 	 * 
-	 * 使用的动态规划 运行效率加快 我一直所认为的动态规划算法
+	 * 使用的动态规划 
 	 * 
-	 * 在面对非常的大的数字前还是无力的 因为它需要大量的内存
+	 * 
 	 * 
 	 */
 	public int climbStairs(int n) {

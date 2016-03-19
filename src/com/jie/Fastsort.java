@@ -6,9 +6,7 @@ public class Fastsort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] data = { 1, 2, 2, 2, 8, 8, 78, 85, 74, 74, 22, 1, 1, 1, 1, 1,
-				256, 2333, 2666, 221, 21, 2, 2, 2, 2, 3, 3, 3, 3, 6, 6, 6, 5,
-				5, 5, 5, 5, 5, 5, 8 };
+		int[] data = { 1,-1,1,1 };
 		System.out.println(Arrays.toString(fastSort(data, 0, data.length - 1)));
 	}
 
@@ -44,10 +42,10 @@ public class Fastsort {
 			}
 
 		}
-		if (data[begin] > data[j]) {
+		//if (data[begin] > data[j]) {
 			data[begin] = data[j];
 			data[j] = da;
-		}
+		//}
 		fastSort(data, begin, j - 1);
 		fastSort(data, i, end);
 
